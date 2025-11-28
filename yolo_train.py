@@ -3,7 +3,7 @@ import torch
 
 from ultralytics import YOLO
 
-def manin():
+def main():
 # Load a model
     model = YOLO("yolo11n-seg.pt")  
 
@@ -16,4 +16,4 @@ def manin():
         plots=True)
 
 if __name__ == "__main__":
-    manin()
+    main()
