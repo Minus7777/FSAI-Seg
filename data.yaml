@@ -1,0 +1,10 @@
+path: C:\Users\Minusyy\yolo_seg\dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+
+names: ['orange_cone', 'yellow_cone', 'large_orange_cone', 'blue_cone', 'unknown_cone']
+
+
